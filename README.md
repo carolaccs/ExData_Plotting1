@@ -1,3 +1,6 @@
+# Exploratory Data Analysis: Project 1
+# Ivette C. Martinez
+
 ## Introduction
 
 This assignment uses data from
