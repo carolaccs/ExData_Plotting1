@@ -25,3 +25,4 @@ hist(powerConsumptionDF$Global_active_power, main="Global Active Power", xlab="G
 #### 5. Saving png
 dev.copy(png,"plot1.png", width=480, height=4800)
 dev.off()
+
