@@ -6,7 +6,7 @@ library(dplyr)
 
 #### 2. Getting Data
 dataSetUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-if (!file.exists(".data/exdata-data-household_power_consumption.zip")){
+if (!file.exists("./data/exdata-data-household_power_consumption.zip")){
   download.file(dataSetUrl, destfile= "./data/exdata-data-household_power_consumption.zip", method = "curl")
   dateDownloaded <- date()
 }
@@ -23,5 +23,5 @@ powerConsumptionDF <- filter(powerConsumptionDF, Date >= as.Date("2007-02-01"), 
 hist(powerConsumptionDF$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
 #### 5. Saving png
-dev.copy(png,"plot1.png", width=500, height=500)
+dev.copy(png,"plot1.png", width=480, height=4800)
 dev.off()
