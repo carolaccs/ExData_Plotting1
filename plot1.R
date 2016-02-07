@@ -23,6 +23,6 @@ powerConsumptionDF <- filter(powerConsumptionDF, Date >= as.Date("2007-02-01"), 
 hist(powerConsumptionDF$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
 #### 5. Saving png
-dev.copy(png,"plot1.png", width=480, height=4800)
+dev.copy(png,"plot1.png", width=480, height=480)
 dev.off()
 
