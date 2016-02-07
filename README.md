@@ -3,6 +3,10 @@
 
 ## Introduction
 
+This is my solution to the assigmen described below. 
+All scrips have comments on them.
+
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
